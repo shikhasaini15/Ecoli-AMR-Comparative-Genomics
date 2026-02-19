@@ -5,23 +5,19 @@ This project presents a comprehensive bioinformatics workflow for comparative ge
 
 The study integrates:
 
-1.Quality control
-
-2.Long-read genome assembly
-
-3.Genome annotation
-
-4.Pangenome analysis
-
-5.Antimicrobial resistance gene detection
+1. Quality control
+2. Long-read genome assembly
+3. Genome annotation
+4. Pangenome analysis
+5. Antimicrobial resistance gene detection
 
 ### 🧬 Dataset Information
 
-Organism: Escherichia coli
-Strains: GN3, GN6, GN9
-Sequencing Platform: PacBio Sequel IIe
-Coverage: ~30x
-File Format: FASTQ (HiFi reads)
+1. Organism: Escherichia coli
+2. Strains: GN3, GN6, GN9
+3. Sequencing Platform: PacBio Sequel IIe
+4. Coverage: ~30x
+5. File Format: FASTQ (HiFi reads)
 
 Data source: [DATA](https://cgr.liv.ac.uk/454/acdarby/LIFE748/)
 
