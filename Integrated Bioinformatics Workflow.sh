@@ -1,4 +1,3 @@
-##🔬 Integrated Bioinformatics Workflow
 # Comparative Genomics & AMR Profiling of Clinical E. coli (GN3, GN6, GN9)
 ## 🖥 1️⃣ System Preparation (Ubuntu 24.04)
 sudo apt update && sudo apt upgrade -y
