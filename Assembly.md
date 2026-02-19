@@ -2,7 +2,7 @@
 
 NOTE
 >This document makes the assumption:
->- That you have installed conda and the required software [install conda]
+>- That you have installed conda and the required software.
 >- That you have run the command `conda activate genomics_env`
 
 ### Assembly datasets and anaylsis provided:
