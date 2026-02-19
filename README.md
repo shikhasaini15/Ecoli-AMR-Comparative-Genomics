@@ -49,6 +49,7 @@ quast flye_output_GN3/assembly.fasta -o quast_results_GN3/
 Tools:
 
 Prokka v1.14.6
+
 Bakta v1.8.1
 
 ```
@@ -60,6 +61,7 @@ prokka --outdir annotation_GN3 --prefix GN3 flye_output_GN3/assembly.fasta
 Tools:
 
 Panaroo v1.3.3
+
 Roary v3.13.0
 
 ```
@@ -68,7 +70,9 @@ panaroo -i annotation/*.gff -o panaroo_output --clean-mode strict
 ## Results:
 
 3728 core genes
+
 2387 shell genes
+
 GN6 showed highest number of unique genes
 
 ## 5️⃣ AMR Gene Identification
@@ -82,15 +86,23 @@ amrfinder -n flye_output_GN3/assembly.fasta -o amr_output_GN3.txt
 Detected genes:
 
 acrF
+
 emrD
+
 blaEC
+
 GN9 showed highest AMR gene count (12 genes)
 
 ## 📊 Key Results
 
 High-quality assemblies (N50 ~5 Mb)
+
 4 contigs per strain
+
 4841 CDS per strain
+
 3728 core genes identified
+
 Multidrug resistance efflux genes detected
+
 GN9 exhibited elevated resistance profile
