@@ -41,14 +41,6 @@ Pacbio Salonella genome at 30X coverage:
 fastqc --help
 ```
 
-We can view the report by navigating to the unix home using filemanager "clinking on the pengiun"
-
-![Model](https://github.com/acdarby/LIFE748/blob/main/Artboard1.png)
-
-And find the `*.html` file click on this to open the file in a browser.
-
-note 
->Refer to the lecture notes make some observations about the quanity, quality and length of the reads in the different files.
 
 ### We are using the assemblier called `flye` [Flye github](https://github.com/fenderglass/Flye)
 ```
