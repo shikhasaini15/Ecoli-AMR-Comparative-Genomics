@@ -1,5 +1,5 @@
-Integrated Bioinformatics Workflow for Comparative Genomics and AMR Profiling of Clinical E. coli Isolates
-📌 Project Overview
+## Integrated Bioinformatics Workflow for Comparative Genomics and AMR Profiling of Clinical E. coli Isolates
+### 📌 Project Overview
 
 This project presents a comprehensive bioinformatics workflow for comparative genomic and antimicrobial resistance (AMR) profiling of three clinical Escherichia coli isolates (GN3, GN6, GN9) obtained from septic patients and sequenced using PacBio HiFi technology.
 
@@ -15,7 +15,7 @@ Pangenome analysis
 
 Antimicrobial resistance gene detection
 
-🧬 Dataset Information
+### 🧬 Dataset Information
 
 Organism: Escherichia coli
 
@@ -27,17 +27,17 @@ Coverage: ~30x
 
 File Format: FASTQ (HiFi reads)
 
-Data source:
-https://cgr.liv.ac.uk/454/acdarby/LIFE748/
+Data source: [DATA](https://cgr.liv.ac.uk/454/acdarby/LIFE748/)
 
-🔬 Workflow Overview
-1️⃣ Quality Control
+## Workflow Overview
+## 1️⃣ Quality Control
 
 Tool: FastQC v0.12.1
 Command:
 
 fastqc raw/*.fastq -o fastqc_output/
-2️⃣ Genome Assembly
+
+## 2️⃣ Genome Assembly
 
 Tool: Flye v2.9.2
 
@@ -46,7 +46,8 @@ flye --nano-raw raw/GN3.fastq --out-dir flye_output_GN3 --genome-size 5m
 Assembly Evaluation:
 
 quast flye_output_GN3/assembly.fasta -o quast_results_GN3/
-3️⃣ Genome Annotation
+
+## 3️⃣ Genome Annotation
 
 Tools:
 
@@ -55,7 +56,8 @@ Prokka v1.14.6
 Bakta v1.8.1
 
 prokka --outdir annotation_GN3 --prefix GN3 flye_output_GN3/assembly.fasta
-4️⃣ Pangenome Analysis
+
+## 4️⃣ Pangenome Analysis
 
 Tools:
 
@@ -73,7 +75,7 @@ Results:
 
 GN6 showed highest number of unique genes
 
-5️⃣ AMR Gene Identification
+## 5️⃣ AMR Gene Identification
 
 Tool: AMRFinderPlus v3.11.2
 
@@ -89,7 +91,7 @@ blaEC
 
 GN9 showed highest AMR gene count (12 genes)
 
-📊 Key Results
+## 📊 Key Results
 
 High-quality assemblies (N50 ~5 Mb)
 
