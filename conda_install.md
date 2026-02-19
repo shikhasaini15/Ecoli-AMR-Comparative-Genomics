@@ -1,4 +1,4 @@
-# Install Conda on WSL (~ 5 min)
+# Install Conda
 
 1. Open WSL terminal
 1.  Download the Miniconda installer:
