@@ -25,7 +25,6 @@ Data source: [DATA](https://cgr.liv.ac.uk/454/acdarby/LIFE748/)
 ## 1️⃣ Quality Control
 
 Tool: FastQC v0.12.1
-Command:
 
 ``` 
 fastqc raw/*.fastq -o fastqc_output/
