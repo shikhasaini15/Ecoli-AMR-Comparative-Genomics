@@ -2,7 +2,7 @@
 
 NOTE
 >This document makes the assumption:
->- That you have installed conda and the required software [install conda]([conda_install.md](https://github.com/shikhasaini15/Ecoli-AMR-Comparative-Genomics/blob/main/conda_install.md))
+>- That you have installed conda and the required software [install conda]
 >- That you have run the command `conda activate genomics_env`
 
 ### Assembly datasets and anaylsis provided:
