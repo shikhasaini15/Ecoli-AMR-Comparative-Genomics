@@ -4,12 +4,6 @@
 
 
 NOTE
->This document makes the assumption:
->- That you are working in a WSL terminal [installing WSL](WSL.md)
->- That you have installed conda and the required software [install conda](conda_install.md)
-
-Data for this workshop can be found at [DATA](https://github.com/acdarby/LIFE748/blob/main/data_downloads.md)
-
 ONT Salonella genome at X coverage:
 
 | raw reads      |
