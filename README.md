@@ -6,9 +6,13 @@ This project presents a comprehensive bioinformatics workflow for comparative ge
 The study integrates:
 
 1.Quality control
+
 2.Long-read genome assembly
+
 3.Genome annotation
+
 4.Pangenome analysis
+
 5.Antimicrobial resistance gene detection
 
 ### 🧬 Dataset Information
